@@ -1,0 +1,66 @@
+
+
+.toolBar {
+    width: 100%;
+    position: fixed;
+    background-color:  black;
+    top:0;
+    left:0;
+    height: 76px;
+ 
+    text-align: center;
+
+
+}
+
+
+.toolBarNavigation{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 1rem;
+
+}
+
+.toolBarLogo{
+    margin-left: 4rem;  
+
+}
+
+.toolBarLogo a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 50px;
+    text-shadow: 5px 5px 6px dodgerblue;
+
+}
+
+.spacer{
+    flex: 2;
+}
+
+.toolBarNavigationItems ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+    display: flex;
+}
+
+.toolBarNavigationItems li{
+ padding: 0 0.5rem;
+
+}
+
+.toolBarNavigationItems a{
+    color: white;
+    text-decoration: none;
+
+}
+
+
+.toolBarNavigationItems a:hover,
+.toolBarNavigationItems a:active{
+    color: greenyellow;
+    
+}
+
